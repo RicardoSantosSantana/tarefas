@@ -6,6 +6,7 @@ const tarefasIniciais: Tarefa[] = [
     Tarefa.criarAtiva(1, 'Estudar Next'),
      Tarefa.criarConcluida(2, 'Limpar carro'),
      Tarefa.criarAtiva(3, 'Comprar livro do mês'),
+     Tarefa.criarAtiva(4, 'Dar banho na Docinho'),
 ]
 
 export default new ListaTarefas(tarefasIniciais, TipoFiltro.NENHUM)
